@@ -12,5 +12,9 @@ This package has two public modules:
 
 
 The modules can be executed using command prompt:
-
 `` python3 module_name arg1 arg2 arg3 argn``
+
+## Requirements
+Requirements can be found on requirements.txt. 
+
+Python version: 3.8
