@@ -1,20 +1,20 @@
 # Covid Detection
 
-## Lung_image_splitter package
+## uiblungs package
 
-This package has two public modules:
-- dataset_generator: generates a dataset with the coordinates of the zones to cut from the mask image
-  - Input: Masks folder, output folder, (optional) number of images per lung
-  - Output: csv with the coordinates for each image of the folder
-- image_splitter: splits the image in n sub images using a mask and a lungs image.
-  - Input: Masks folder, images folder, output folder, (optional) number of images per lung
-  - Output: Sub images
+This package contains the logic to split and slice lung images with masks.
+
+It can be executed as a module or as an imported python package using the 
+Splitter class.
 
 
-The modules can be executed using command prompt:
-`` python3 module_name arg1 arg2 arg3 argn``
+Module execution sintax:
 
-## Requirements
-Requirements can be found on requirements.txt. 
+`` python3 module_name split image_path mask_path output_path``
 
-Python version: 3.8
+`` python3 module_name slice image_path mask_path output_path --n_slices`` 
+--n_slices default value is 4
+## Vfeautres package
+
+Todo
+
