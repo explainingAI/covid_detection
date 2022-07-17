@@ -3,14 +3,14 @@ import pathlib
 import cv2
 import json
 
-from uiblungs.box.box import ImageBox
-from uiblungs.separator.separator import LungSeparator
-from uiblungs.slicer.slicer import BoxSlicer
-from uiblungs.cropper.cropper import BoxCropper
+from _box.box import ImageBox
+from _separator.separator import LungSeparator
+from _slicer.slicer import BoxSlicer
+from _cropper.cropper import BoxCropper
 
-from uiblungs.separator.separator_imp import LungSeparatorImp
-from uiblungs.slicer.slicer_imp import BoxSlicerImp
-from uiblungs.cropper.cropper_imp import BoxCropperImp
+from _separator.separator_imp import LungSeparatorImp
+from _slicer.slicer_imp import BoxSlicerImp
+from _cropper.cropper_imp import BoxCropperImp
 
 
 class Splitter:

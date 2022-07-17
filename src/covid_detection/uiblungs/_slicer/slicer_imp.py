@@ -1,7 +1,5 @@
-import numpy as np
-
-from uiblungs.box.box import ImageBox
-from uiblungs.slicer.slicer import BoxSlicer
+from box.box import ImageBox
+from slicer.slicer import BoxSlicer
 
 
 class BoxSlicerImp(BoxSlicer):

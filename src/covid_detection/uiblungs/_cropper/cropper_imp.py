@@ -1,7 +1,7 @@
 import numpy as np
 
-from uiblungs.cropper.cropper import BoxCropper
-from uiblungs.box.box import ImageBox
+from cropper.cropper import BoxCropper
+from box.box import ImageBox
 
 
 class BoxCropperImp(BoxCropper):

@@ -1,7 +1,7 @@
-from uiblungs.splitter import Splitter
-from uiblungs.slicer.slicer_imp import BoxSlicerImp
-from uiblungs.separator.separator_imp import LungSeparatorImp
-from uiblungs.cropper.cropper_imp import BoxCropperImp
+from splitter import Splitter
+from _slicer.slicer_imp import BoxSlicerImp
+from _separator.separator_imp import LungSeparatorImp
+from _cropper.cropper_imp import BoxCropperImp
 import cv2
 import sys
 import argparse
