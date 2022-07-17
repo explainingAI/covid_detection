@@ -3,14 +3,14 @@ import pathlib
 import cv2
 import json
 
-from _box.box import ImageBox
-from _separator.separator import LungSeparator
-from _slicer.slicer import BoxSlicer
-from _cropper.cropper import BoxCropper
+from covid_detection.uiblungs.box.box import ImageBox
+from covid_detection.uiblungs.separator.separator import LungSeparator
+from covid_detection.uiblungs.slicer.slicer import BoxSlicer
+from covid_detection.uiblungs.cropper.cropper import BoxCropper
 
-from _separator.separator_imp import LungSeparatorImp
-from _slicer.slicer_imp import BoxSlicerImp
-from _cropper.cropper_imp import BoxCropperImp
+from covid_detection.uiblungs.separator.separator_imp import LungSeparatorImp
+from covid_detection.uiblungs.slicer.slicer_imp import BoxSlicerImp
+from covid_detection.uiblungs.cropper.cropper_imp import BoxCropperImp
 
 
 class Splitter:

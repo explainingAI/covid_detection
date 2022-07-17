@@ -2,7 +2,7 @@ import abc
 
 import numpy as np
 
-from box.box import ImageBox
+from covid_detection.uiblungs.box.box import ImageBox
 
 
 class BoxCropper(abc.ABC):

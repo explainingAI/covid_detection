@@ -10,9 +10,9 @@ Splitter class.
 
 Module execution sintax:
 
-`` python3 module_name split image_path mask_path output_path``
+`` python3 covid_detection split image_path mask_path output_path``
 
-`` python3 module_name slice image_path mask_path output_path --n_slices`` 
+`` python3 covid_detection slice image_path mask_path output_path --n_slices`` 
 --n_slices default value is 4
 ## Vfeautres package
 

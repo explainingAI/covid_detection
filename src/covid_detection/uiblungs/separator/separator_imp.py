@@ -2,8 +2,8 @@ import numpy as np
 from copy import deepcopy
 import cv2
 
-from separator.separator import LungSeparator
-from box.box import ImageBox
+from covid_detection.uiblungs.separator.separator import LungSeparator
+from covid_detection.uiblungs.box.box import ImageBox
 
 
 class LungSeparatorImp(LungSeparator):

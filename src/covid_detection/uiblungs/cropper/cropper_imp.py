@@ -1,7 +1,7 @@
 import numpy as np
 
-from cropper.cropper import BoxCropper
-from box.box import ImageBox
+from covid_detection.uiblungs.cropper.cropper import BoxCropper
+from covid_detection.uiblungs.box.box import ImageBox
 
 
 class BoxCropperImp(BoxCropper):

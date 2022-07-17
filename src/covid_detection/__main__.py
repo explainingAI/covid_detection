@@ -1,7 +1,7 @@
-from splitter import Splitter
-from _slicer.slicer_imp import BoxSlicerImp
-from _separator.separator_imp import LungSeparatorImp
-from _cropper.cropper_imp import BoxCropperImp
+from covid_detection.uiblungs.splitter import Splitter
+from covid_detection.uiblungs.slicer.slicer_imp import BoxSlicerImp
+from covid_detection.uiblungs.separator.separator_imp import LungSeparatorImp
+from covid_detection.uiblungs.cropper.cropper_imp import BoxCropperImp
 import cv2
 import sys
 import argparse

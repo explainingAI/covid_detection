@@ -1,5 +1,5 @@
-from box.box import ImageBox
-from slicer.slicer import BoxSlicer
+from covid_detection.uiblungs.box.box import ImageBox
+from covid_detection.uiblungs.slicer.slicer import BoxSlicer
 
 
 class BoxSlicerImp(BoxSlicer):
